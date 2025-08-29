@@ -6,9 +6,9 @@ import { User, MapPin, Calendar, GraduationCap } from 'lucide-react'
 export default function About() {
   const personalInfo = [
     { icon: User, label: 'Name', value: 'Daniel Folse' },
-    { icon: MapPin, label: 'Location', value: 'United States' },
-    { icon: Calendar, label: 'Experience', value: '5+ Years' },
-    { icon: GraduationCap, label: 'Education', value: 'Computer Science' },
+    { icon: MapPin, label: 'Location', value: 'Currently: Boston, MA' },
+    { icon: Calendar, label: 'Experience', value: '3+ Years' },
+    { icon: GraduationCap, label: 'Education', value: 'Software Engineering' },
   ]
 
   return (
@@ -29,7 +29,7 @@ export default function About() {
             About <span className="code-accent">Me</span>
           </h2>
           <p className="text-lg max-w-2xl mx-auto transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-            Get to know me better and understand my journey in technology
+            Get to know me better and understand my engineering journey
           </p>
         </motion.div>
 
@@ -96,24 +96,18 @@ export default function About() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-                         <div className="p-8 terminal-card transition-colors duration-300">
+            <div className="p-8 terminal-card transition-colors duration-300">
               <h3 className="text-xl font-semibold mb-4 transition-colors duration-300" style={{ color: 'var(--text-primary)' }}>
                 My Story
               </h3>
               <p className="leading-relaxed mb-4 transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-                I'm a passionate software engineer with expertise in full-stack development and AI technologies. 
-                My journey in software development spans over 5 years, and I've been constantly 
-                learning and adapting to new technologies and methodologies.
+                intro paragraph note fill me in 
               </p>
               <p className="leading-relaxed mb-4 transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-                I specialize in building scalable web applications, working with modern frameworks like React, 
-                Node.js, and Python. I'm particularly interested in AI and machine learning, and I love 
-                exploring how these technologies can be integrated into web applications to create more 
-                intelligent and user-friendly experiences.
+                fill in with information
               </p>
               <p className="leading-relaxed transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-                When I'm not coding, you can find me contributing to open-source projects, reading about 
-                the latest tech trends, or sharing knowledge with the developer community.
+                filllllll this out
               </p>
             </div>
 
@@ -127,10 +121,10 @@ export default function About() {
                    style={{ backgroundColor: 'var(--bg-tertiary)' }}
                  >
                    <h4 className="font-semibold mb-2 transition-colors duration-300" style={{ color: 'var(--accent-color)' }}>
-                     Web Development
+                     Embedded Systems
                    </h4>
                    <p className="text-sm transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-                     Full-stack applications with modern frameworks
+                     Over 3 years of experience working with software in embedded systems
                    </p>
                  </div>
                  <div 
@@ -138,10 +132,10 @@ export default function About() {
                    style={{ backgroundColor: 'var(--bg-tertiary)' }}
                  >
                    <h4 className="font-semibold mb-2 transition-colors duration-300" style={{ color: 'var(--accent-color)' }}>
-                     AI Integration
+                     Full Stack/AI Integration
                    </h4>
                    <p className="text-sm transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-                     Machine learning and AI-powered features
+                     Led several efforts to develop and ship AI powered applications to domestic/international customers
                    </p>
                  </div>
                  <div 
@@ -149,10 +143,10 @@ export default function About() {
                    style={{ backgroundColor: 'var(--bg-tertiary)' }}
                  >
                    <h4 className="font-semibold mb-2 transition-colors duration-300" style={{ color: 'var(--accent-color)' }}>
-                     UI/UX Design
+                     Robotics
                    </h4>
                    <p className="text-sm transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-                     User-centered design and prototyping
+                     Led an award-winning robotics team to deliver a novel bio-inspired robot for agricultural management.
                    </p>
                  </div>
                  <div 
@@ -160,10 +154,10 @@ export default function About() {
                    style={{ backgroundColor: 'var(--bg-tertiary)' }}
                  >
                    <h4 className="font-semibold mb-2 transition-colors duration-300" style={{ color: 'var(--accent-color)' }}>
-                     DevOps
+                     DevSecOps
                    </h4>
                    <p className="text-sm transition-colors duration-300" style={{ color: 'var(--text-secondary)' }}>
-                     CI/CD, cloud deployment, and automation
+                     Professional experience in CI/CD, cloud deployment, and automation
                    </p>
                  </div>
                </div>
